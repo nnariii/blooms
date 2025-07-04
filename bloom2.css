@@ -1,0 +1,249 @@
+body {
+    background-color: #f4f0e5;
+    margin: 0;
+    padding: 0;
+    padding-top: 120px; /* Add space for fixed header and nav */
+}
+
+h1 {
+    background-color: #1a2224;
+    position: fixed;
+    color: #bd7b46;
+    margin: 0; /* Remove negative margin */
+    padding: 15px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    top: 0; /* Add top positioning */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+.navigation {
+    position: fixed;
+    height: 50px; 
+    right: 0;
+    left: 0;
+    top: 60px; 
+    background-color: #3f4e4f;
+    box-sizing: border-box; 
+    text-align: center;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+
+
+
+.navigation h3 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bd7b46;
+}
+
+ul {
+    position: relative;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+li {
+    display: inline-flex;
+    margin: 0 20px; 
+}
+
+a {
+    color: #f4f0e5;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
+    text-decoration: none;
+    padding: 8px 12px; 
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: #bd7b46;
+}
+
+img {
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; /* Reduce top margin since we have body padding */
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+    color: #a27b46;
+}
+
+.author {
+    text-align: center;
+    font-style: italic;
+    color: hsla(184, 11%, 28%, 0.652);
+    margin-top: -20px;
+}
+
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.tab2 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 60px;
+    align-self: flex-end;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #a27b5c;
+    text-align: center;
+    border: 2px solid black;
+    color: whitesmoke;
+    text-shadow: black;
+    border-radius: 30px;
+}
+
+.container:hover{
+ transform: translateY(-10px);
+            box-shadow: 0 50px 50px hsla(184, 11%, 28%, 0.652);
+}
+
+.container a:hover{
+    color: rgb(6, 29, 10);
+}
+
+.movie {
+    height: 100px;
+    width: 100px;
+    align-self: self-end;
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+
+.wallpapers:hover{
+ transform: translateY(-10px);
+            box-shadow: 0 50px 50px hsla(184, 11%, 28%, 0.652);
+}
+
+.wallpapers a:hover{
+    color: darkolivegreen;
+}
+
+.wallpapers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #a27b5c;
+    text-align: center;
+    border: 2px solid black;
+    color: whitesmoke;
+    text-shadow: black;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.phone {
+    height: 100px;
+    width: 100px;
+    align-self: self-end;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.motivationbox {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    background-color: #a27b5c;
+    text-align: center;
+    border: 2px solid black;
+    color: whitesmoke;
+    text-shadow: black;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.motivationbox:hover{
+ transform: translateY(-10px);
+            box-shadow: 0 50px 50px hsla(184, 11%, 28%, 0.652);
+}
+
+.motivationbox a:hover{
+    color: darkolivegreen;
+}
+
+.heart {
+    height: 100px;
+    width: 100px;
+    align-self: self-end;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+#cover{
+    background-color: hsla(27, 28%, 50%, 0.786);
+    padding: 40px;
+    text-align: center;
+     margin-top: -10px;
+   
+}
+
+#cover p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-style: italic;
+}
+
+.bloomlogo {
+    width: 300px;
+    height: 300px;
+}
+
+.about{
+    background-color: #a27b5c;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    border: 5px dashed black;
+    margin-top: 40px;
+}
+
+.about h2{
+    text-shadow: 1px 1px 2px rgb(200, 190, 190);
+    font-size: 80px;
+    color: #333;
+    font-weight: bold;
+
+}
+
+.about p{
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
